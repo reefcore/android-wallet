@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navigation drawer profile pic border style -->
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+<stroke android:color="#4ABAFA" android:width="5dp"></stroke>
+    <size android:width="110dp" android:height="110dp"></size>
+
+</shape>

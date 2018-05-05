@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- gradient effect for global buttons-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:centerColor="#F49521"
+                android:endColor="#FC7F2B" android:gradientRadius="400dp"
+                android:startColor="#ECA716"
+
+                android:type="linear"  />
+            <size android:width="100dp" android:height="44dp"></size>
+       <corners android:radius="5dp"></corners>
+        </shape>
+
+    </item>
+</selector>

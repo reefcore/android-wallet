@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/sldier_bg">
+    <!-- slider style -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<!-- available balance -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Available Balance"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+<!-- BTC -->
+        <TextView
+            android:id="@+id/tv_coin_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="BTC"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#93D1FA"></View>
+<!-- total amount -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="1.040516"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="180dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#93D1FA"></View>
+<!-- total currency amount -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="$10K USD"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="italic|bold" />
+    </LinearLayout>
+</RelativeLayout>

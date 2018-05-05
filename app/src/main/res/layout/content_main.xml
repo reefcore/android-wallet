@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wallet.cryptocurrency.ActivityPackage.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <!-- top section -->
+    <LinearLayout
+        android:id="@+id/toolss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/toolbars"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/toolbar_bg"
+
+            android:orientation="vertical"
+            android:popupTheme="@style/AppTheme.PopupOverlay"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <!-- navigation button -->
+                <ImageButton
+                    android:id="@+id/ham"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="10dp"
+                    android:background="#00000000"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ham" />
+                <!-- title -->
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.0"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center|start"
+                    android:paddingLeft="5dp"
+                    android:text="Personal Wallet"
+                    android:textColor="#ffffff"
+                    android:textSize="22dp" />
+                <!-- settings button -->
+                <ImageButton
+                    android:id="@+id/btn_setting"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginTop="10dp"
+                    android:background="#00000000"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/settings" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+<!-- tab layout -->
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:layout_marginTop="10dp"
+                    android:clipToPadding="false"
+                    app:tabBackground="@drawable/tab_selected"
+
+                    app:tabGravity="fill"
+                    app:tabIndicatorColor="#ffffff"
+                    app:tabMode="fixed"
+                    app:tabSelectedTextColor="#ffffff"
+                    app:tabTextColor="#546CB8">
+
+                </android.support.design.widget.TabLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- content section which will replace using viewpager -->
+    <RelativeLayout
+        android:id="@+id/ab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolss">
+<!-- view pager -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </RelativeLayout>
+</RelativeLayout>

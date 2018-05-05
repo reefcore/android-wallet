@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this is custom style for confirm send button -->
+<!--selector for holding item -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+   <!-- setting shape to rectangle -->
+        <shape android:shape="rectangle">
+<!-- setting gradient color and radius -->
+            <gradient android:centerColor="#E1E1E1"
+                android:endColor="#E1E1E1" android:gradientRadius="400dp"
+                android:startColor="#E1E1E1"
+                android:type="linear"  />
+            <!-- setting width and height of style-->
+            <size android:width="100dp" android:height="44dp"></size>
+           <!-- setting corner radius -->
+            <corners android:radius="5dp"></corners>
+        </shape>
+    </item>
+</selector>

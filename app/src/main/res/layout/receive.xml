@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--content section -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <RelativeLayout
+            android:id="@+id/abc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+<!--QR image view -->
+                <ImageView
+                    android:id="@+id/imageQr"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" />
+<!--Qr textview -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:id="@+id/tvQrcode"
+                    android:text="sdvdssdvsdvsd"
+                    android:textColor="#4F4F4F" />
+<!-- Generate new code -->
+                <TextView
+                    android:id="@+id/tv_generate_new_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Generate New Address"
+                    android:textColor="#4F4F4F" />
+
+<!-- Request custom amount -->
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/gredient_effect_for_button_receive"
+                    android:text="Request Custom Amount"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </RelativeLayout>
+<!-- personal wallet -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/abc"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/pwallet" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:text="Personal Wallet"
+                android:textColor="#595A5B"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="210.550 "
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="BTC"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ActivityPackage.ScanActivity"
+    tools:showIn="@layout/activity_scan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- top section -->
+        <com.wallet.cryptocurrency.UtilPackage.StatusBarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/status_bar_bg" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:id="@+id/bg"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/toolbar_bg" />
+<!-- back button -->
+            <ImageButton
+                android:id="@+id/image_button_back"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="#00000000"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/backarrow" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+
+                android:orientation="horizontal">
+<!-- tool bar icon  -->
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="10dp"
+                    android:src="@drawable/scan" />
+<!-- tool bar title -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="11.7dp"
+                    android:text="Scan"
+                    android:textColor="@color/text_color"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <!--content section the camera will show here -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/lk">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <!-- this rel1 will be used to show camera -->
+                    <RelativeLayout
+                        android:id="@+id/rel1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></RelativeLayout>
+
+                </RelativeLayout>
+            </FrameLayout>
+<!-- bottom section -->
+            <LinearLayout
+                android:id="@+id/lk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/gredient_effect_for_button_receive"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+<!-- flash -->
+                <ImageButton
+                    android:id="@+id/flash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="#00000000"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/flash" />
+<!-- camera switching -->
+                <ImageButton
+                    android:id="@+id/camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="#00000000"
+
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/camera" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

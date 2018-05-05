@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF9FF"
+    android:orientation="vertical">
+    <!-- content section -->
+    <!-- slider -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+        <!-- slider -->
+        <com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager
+            android:id="@+id/hicvp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager>
+    </RelativeLayout>
+    <!-- recycler view list -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <!-- activity -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:text="Activity"
+                android:textColor="#7F8180"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/btn_received"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <!-- received -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Received"
+                        android:textColor="#5CAAFD"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:id="@+id/border_receive"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+
+                        android:background="#72CBF5"></View>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <!-- send -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Send"
+                        android:textColor="#F9B831"
+                        android:textSize="18dp" />
+
+                    <View
+                        android:id="@+id/border_send"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#72CBF5"></View>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D2DBE0"></View>
+        <!-- recycler view -->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

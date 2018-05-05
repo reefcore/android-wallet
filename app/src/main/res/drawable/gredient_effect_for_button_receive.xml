@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- gradient effect for receive button -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:centerColor="#6BC0F7"
+                android:endColor="#75D2F4" android:gradientRadius="400dp"
+                android:startColor="#5AA5FF"
+
+                android:type="linear"  />
+            <size android:width="100dp" android:height="44dp"></size>
+       <corners android:radius="5dp"></corners>
+        </shape>
+
+    </item>
+</selector>

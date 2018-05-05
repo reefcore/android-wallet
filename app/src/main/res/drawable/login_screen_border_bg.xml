@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- devider style for login screen -->
+<shape android:shape="rectangle"   xmlns:android="http://schemas.android.com/apk/res/android">
+<size android:height="1dp" android:width="200dp"></size>
+   <gradient android:startColor="#86D8F6"  android:endColor="#6CACFF"></gradient>
+</shape>
