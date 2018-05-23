@@ -1,4 +1,4 @@
-package com.wallet.cryptocurrency.FragmentPackage;
+package com.wallet.reefcoin.Fragment;
 /**
  * all required libraries imported here
  */
@@ -11,8 +11,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.wallet.cryptocurrency.ActivityPackage.LoginActivity;
-import com.wallet.cryptocurrency.R;
+import com.wallet.reefcoin.Activity.LoginActivity;
+import com.wallet.reefcoin.R;
 
 /**
  * Created by "MD.Ibrahim Khalil" on 28-Feb-18.

@@ -1,4 +1,4 @@
-package com.wallet.cryptocurrency.AdapterPackage;
+package com.wallet.reefcoin.Adapter;
 /**
  * all required libraries imported here
  */
@@ -7,11 +7,10 @@ import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.wallet.cryptocurrency.R;
+import com.wallet.reefcoin.R;
 
 import java.util.ArrayList;
 

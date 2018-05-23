@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/splash_bg"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.wallet.cryptocurrency.ActivityPackage.SplashActivity"
+    tools:context="com.wallet.reefcoin.Activity.SplashActivity"
     tools:showIn="@layout/activity_splash">
 
     <!-- center image view  -->

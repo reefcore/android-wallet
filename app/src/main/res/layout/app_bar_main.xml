@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wallet.cryptocurrency.ActivityPackage.MainActivity">
+    tools:context="com.wallet.reefcoin.Activity.MainActivity">
 <!-- customized status bar in app bar layout -->
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:elevation="0dp"
         android:theme="@style/AppTheme.AppBarOverlay">
-        <com.wallet.cryptocurrency.UtilPackage.StatusBarView
+        <com.wallet.reefcoin.UtilPackage.StatusBarView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/status_bar_bg" />

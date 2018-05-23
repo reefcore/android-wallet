@@ -1,22 +1,16 @@
-package com.wallet.cryptocurrency.ActivityPackage;
+package com.wallet.reefcoin.Activity;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 
-import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
-import com.wallet.cryptocurrency.FragmentPackage.SendFragment;
-import com.wallet.cryptocurrency.R;
-import com.wallet.cryptocurrency.UtilPackage.CustomZXingScannerView;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.wallet.reefcoin.Fragment.SendFragment;
+import com.wallet.reefcoin.R;
+import com.wallet.reefcoin.Util.CustomZXingScannerView;
 
 import me.dm7.barcodescanner.core.IViewFinder;
 import me.dm7.barcodescanner.zxing.ZXingScannerView;

@@ -1,4 +1,4 @@
-package com.wallet.cryptocurrency.FragmentPackage;
+package com.wallet.reefcoin.Fragment;
 /**
  * all required libraries imported here
  */
@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.wallet.cryptocurrency.R;
+import com.wallet.reefcoin.R;
 
 /**
  * Created by "MD.Ibrahim Khalil" on 27-Feb-18.

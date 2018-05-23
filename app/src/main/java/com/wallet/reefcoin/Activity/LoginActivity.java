@@ -1,4 +1,4 @@
-package com.wallet.cryptocurrency.ActivityPackage;
+package com.wallet.reefcoin.Activity;
 /**
  * all required libraries imported here
  */
@@ -11,9 +11,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.wallet.cryptocurrency.FragmentPackage.ForgotPasswordFragment;
-import com.wallet.cryptocurrency.FragmentPackage.SignupFragment;
-import com.wallet.cryptocurrency.R;
+import com.wallet.reefcoin.Fragment.ForgotPasswordFragment;
+import com.wallet.reefcoin.Fragment.SignupFragment;
+import com.wallet.reefcoin.R;
 
 public class LoginActivity extends AppCompatActivity {
     /**

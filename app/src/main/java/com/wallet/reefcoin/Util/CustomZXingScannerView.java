@@ -1,4 +1,4 @@
-package com.wallet.cryptocurrency.UtilPackage;
+package com.wallet.reefcoin.Util;
 /**
  * all required libraries imported here
  */
@@ -12,7 +12,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.wallet.cryptocurrency.R;
+import com.wallet.reefcoin.R;
 
 import me.dm7.barcodescanner.core.DisplayUtils;
 import me.dm7.barcodescanner.core.IViewFinder;

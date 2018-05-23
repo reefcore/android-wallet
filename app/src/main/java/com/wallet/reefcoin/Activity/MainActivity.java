@@ -1,4 +1,4 @@
-package com.wallet.cryptocurrency.ActivityPackage;
+package com.wallet.reefcoin.Activity;
 /**
  * all required libraries imported here
  */
@@ -8,7 +8,6 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -18,11 +17,11 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.wallet.cryptocurrency.AdapterPackage.FragmentAdapter;
-import com.wallet.cryptocurrency.FragmentPackage.TransactionsFragment;
-import com.wallet.cryptocurrency.FragmentPackage.ReceiveFragment;
-import com.wallet.cryptocurrency.FragmentPackage.SendFragment;
-import com.wallet.cryptocurrency.R;
+import com.wallet.reefcoin.Adapter.FragmentAdapter;
+import com.wallet.reefcoin.Fragment.TransactionsFragment;
+import com.wallet.reefcoin.Fragment.ReceiveFragment;
+import com.wallet.reefcoin.Fragment.SendFragment;
+import com.wallet.reefcoin.R;
 
 public class MainActivity extends AppCompatActivity {
     /**

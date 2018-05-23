@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wallet.cryptocurrency">
+    package="com.wallet.reefcoin">
 
     <!-- used permission -->
     <uses-permission android:name="android.permission.CAMERA" />
@@ -8,34 +8,34 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/app_icon"
-        android:label="Coin Wallet"
+        android:label="ReefCoin Wallet"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
         <!-- login activity -->
         <activity
-            android:name=".ActivityPackage.LoginActivity"
+            android:name=".Activity.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <!-- main activity -->
         <activity
-            android:name=".ActivityPackage.MainActivity"
+            android:name=".Activity.MainActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <!-- scan activity -->
         <activity
-            android:name=".ActivityPackage.ScanActivity"
+            android:name=".Activity.ScanActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <!-- settings activity -->
         <activity
-            android:name=".ActivityPackage.SettingsActivity"
+            android:name=".Activity.SettingsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ActivityPackage.SplashActivity"
+            android:name=".Activity.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

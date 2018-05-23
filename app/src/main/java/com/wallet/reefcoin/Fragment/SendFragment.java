@@ -1,4 +1,4 @@
-package com.wallet.cryptocurrency.FragmentPackage;
+package com.wallet.reefcoin.Fragment;
 /**
  * all required libraries imported here
  */
@@ -14,10 +14,9 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 
 import com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager;
-import com.wallet.cryptocurrency.ActivityPackage.ScanActivity;
-import com.wallet.cryptocurrency.AdapterPackage.SliderSendAdapter;
-import com.wallet.cryptocurrency.AdapterPackage.SliderTransactionAdapter;
-import com.wallet.cryptocurrency.R;
+import com.wallet.reefcoin.Activity.ScanActivity;
+import com.wallet.reefcoin.Adapter.SliderSendAdapter;
+import com.wallet.reefcoin.R;
 
 import java.util.ArrayList;
 

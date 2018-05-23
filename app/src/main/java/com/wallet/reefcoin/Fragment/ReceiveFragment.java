@@ -1,4 +1,4 @@
-package com.wallet.cryptocurrency.FragmentPackage;
+package com.wallet.reefcoin.Fragment;
 /**
  * all required libraries imported here
  */
@@ -20,8 +20,7 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
-import com.wallet.cryptocurrency.ActivityPackage.MainActivity;
-import com.wallet.cryptocurrency.R;
+import com.wallet.reefcoin.R;
 
 /**
  * Created by "MD.Ibrahim Khalil" on 28-Feb-18.
