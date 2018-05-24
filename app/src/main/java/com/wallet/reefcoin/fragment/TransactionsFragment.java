@@ -1,4 +1,4 @@
-package com.wallet.reefcoin.Fragment;
+package com.wallet.reefcoin.fragment;
 /**
  * all required libraries imported here
  */
@@ -13,8 +13,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager;
-import com.wallet.reefcoin.Adapter.ReceiveandSendAdapter;
-import com.wallet.reefcoin.Adapter.SliderTransactionAdapter;
+import com.wallet.reefcoin.adapter.ReceiveandSendAdapter;
+import com.wallet.reefcoin.adapter.SliderTransactionAdapter;
 import com.wallet.reefcoin.R;
 
 import java.util.ArrayList;

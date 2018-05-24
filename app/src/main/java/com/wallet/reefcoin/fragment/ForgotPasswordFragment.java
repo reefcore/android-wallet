@@ -1,4 +1,4 @@
-package com.wallet.reefcoin.Fragment;
+package com.wallet.reefcoin.fragment;
 /**
  * all required libraries imported here
  */
@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.wallet.reefcoin.Activity.LoginActivity;
+import com.wallet.reefcoin.activity.LoginActivity;
 import com.wallet.reefcoin.R;
 
 /**

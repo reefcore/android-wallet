@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wallet.reefcoin.Activity.MainActivity">
+    tools:context="com.wallet.reefcoin.activity.MainActivity">
 <!-- customized status bar in app bar layout -->
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

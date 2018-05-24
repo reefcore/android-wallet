@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/fragment_container"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.wallet.reefcoin.Activity.LoginActivity"
+    tools:context="com.wallet.reefcoin.activity.LoginActivity"
     tools:showIn="@layout/activity_login">
 <!-- top section -->
     <ImageView

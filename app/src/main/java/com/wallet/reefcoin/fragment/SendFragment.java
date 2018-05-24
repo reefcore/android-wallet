@@ -1,9 +1,8 @@
-package com.wallet.reefcoin.Fragment;
+package com.wallet.reefcoin.fragment;
 /**
  * all required libraries imported here
  */
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -14,8 +13,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 
 import com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager;
-import com.wallet.reefcoin.Activity.ScanActivity;
-import com.wallet.reefcoin.Adapter.SliderSendAdapter;
+import com.wallet.reefcoin.adapter.SliderSendAdapter;
 import com.wallet.reefcoin.R;
 
 import java.util.ArrayList;
@@ -60,7 +58,8 @@ public class SendFragment extends Fragment {
                 /**
                  * starting the transaction of scan screen
                  */
-                startActivity(new Intent(getActivity(), ScanActivity.class));
+                //startActivity(new Intent(getActivity(), ScanActivity.class));
+                //TODO:: Send via typing in the wallet address
             }
         });
 

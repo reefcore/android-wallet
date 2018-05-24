@@ -1,4 +1,4 @@
-package com.wallet.reefcoin.Fragment;
+package com.wallet.reefcoin.fragment;
 /**
  * all required libraries imported here
  */
@@ -49,7 +49,7 @@ public class ReceiveFragment extends Fragment {
         return rootView;
     }
 
-
+    //TODO:: Receive By generate QR. Then send on node.
     public void createQrCode(final String code) {
         /**
          * setting up the dialog to showing the user that the qr code is generating

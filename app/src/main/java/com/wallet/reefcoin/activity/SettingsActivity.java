@@ -1,4 +1,4 @@
-package com.wallet.reefcoin.Activity;
+package com.wallet.reefcoin.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

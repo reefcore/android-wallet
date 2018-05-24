@@ -1,4 +1,4 @@
-package com.wallet.reefcoin.Activity;
+package com.wallet.reefcoin.activity;
 /**
  * all required libraries imported here
  */
@@ -17,10 +17,10 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.wallet.reefcoin.Adapter.FragmentAdapter;
-import com.wallet.reefcoin.Fragment.TransactionsFragment;
-import com.wallet.reefcoin.Fragment.ReceiveFragment;
-import com.wallet.reefcoin.Fragment.SendFragment;
+import com.wallet.reefcoin.adapter.FragmentAdapter;
+import com.wallet.reefcoin.fragment.TransactionsFragment;
+import com.wallet.reefcoin.fragment.ReceiveFragment;
+import com.wallet.reefcoin.fragment.SendFragment;
 import com.wallet.reefcoin.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -48,19 +48,19 @@ public class MainActivity extends AppCompatActivity {
         /**
          * click listener of navigation ham button which will open and close the navigation drawer
          */
-        btnHam.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                /**
-                 * if the drawer is open then the drawer will be closed and else the drawer will be opened
-                 */
-                if (drawer.isDrawerOpen(GravityCompat.START)) {
-                    drawer.closeDrawer(GravityCompat.START);
-                } else {
-                    drawer.openDrawer(GravityCompat.START);
-                }
-            }
-        });
+//        btnHam.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                /**
+//                 * if the drawer is open then the drawer will be closed and else the drawer will be opened
+//                 */
+//                if (drawer.isDrawerOpen(GravityCompat.START)) {
+//                    drawer.closeDrawer(GravityCompat.START);
+//                } else {
+//                    drawer.openDrawer(GravityCompat.START);
+//                }
+//            }
+//        });
 
         /**
          * setup fragments

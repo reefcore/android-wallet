@@ -1,4 +1,4 @@
-package com.wallet.reefcoin.Adapter;
+package com.wallet.reefcoin.adapter;
 /**
  * all required libraries imported here
  */

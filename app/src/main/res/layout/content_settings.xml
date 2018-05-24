@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Activity.SettingsActivity"
+    tools:context=".activity.SettingsActivity"
     tools:showIn="@layout/activity_settings">
 
 
@@ -16,7 +16,7 @@
 
         android:orientation="vertical">
 <!-- top section -->
-        <com.wallet.reefcoin.Util.StatusBarView
+        <com.wallet.reefcoin.UtilPackage.StatusBarView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/status_bar_bg" />

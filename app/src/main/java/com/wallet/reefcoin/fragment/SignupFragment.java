@@ -1,4 +1,4 @@
-package com.wallet.reefcoin.Fragment;
+package com.wallet.reefcoin.fragment;
 /**
  * all required libraries imported here
  */
